@@ -119,6 +119,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="AppleScript" Type="Folder">
 				<Item Name="Commands" Type="Folder">
+					<Item Name="CMD_Harvest.vi" Type="VI" URL="../Added Files/AppleScript/Commands/CMD_Harvest.vi"/>
 					<Item Name="CMD_Drive.vi" Type="VI" URL="../Added Files/AppleScript/Commands/CMD_Drive.vi"/>
 					<Item Name="CMD_Wait.vi" Type="VI" URL="../Added Files/AppleScript/Commands/CMD_Wait.vi"/>
 					<Item Name="CMD_Run.vi" Type="VI" URL="../Added Files/AppleScript/Commands/CMD_Run.vi"/>
@@ -138,6 +139,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="Loop Speed.vi" Type="VI" URL="../Added Files/Loop Speed.vi"/>
 			<Item Name="Shooter.vi" Type="VI" URL="../Added Files/Shooter.vi"/>
+			<Item Name="Debug Shooter.vi" Type="VI" URL="../Added Files/Debug Shooter.vi"/>
 		</Item>
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>

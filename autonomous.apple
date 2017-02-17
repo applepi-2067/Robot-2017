@@ -1,0 +1,12 @@
+//Written in AppleScript
+//2017 Apple Pi Applescript Autonomous Code
+
+automode 0 //Drive over baseline
+	
+end
+
+automode 1 
+	
+end
+
+
