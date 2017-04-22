@@ -32,7 +32,7 @@
 	</Item>
 	<Item Name="Target" Type="RT myRIO">
 		<Property Name="alias.name" Type="Str">Target</Property>
-		<Property Name="alias.value" Type="Str">roboRIO-2056-FRC.local</Property>
+		<Property Name="alias.value" Type="Str">roboRIO-2067-FRC.local</Property>
 		<Property Name="CCSymbols" Type="Str">OS,Linux;CPU,ARM;DeviceCode,76F2;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">76F2</Property>
 		<Property Name="crio.family" Type="Str">ARMLinux</Property>
@@ -113,10 +113,9 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="Added Files" Type="Folder">
 			<Item Name="Swerve Drive" Type="Folder">
+				<Item Name="Swerve Wheel.vi" Type="VI" URL="../Added Files/Swerve Drive/Swerve Wheel.vi"/>
 				<Item Name="Open Swerve.vi" Type="VI" URL="../Added Files/Swerve Drive/Open Swerve.vi"/>
 				<Item Name="Swerve Drive.vi" Type="VI" URL="../Added Files/Swerve Drive/Swerve Drive.vi"/>
-				<Item Name="Swerve Go To.vi" Type="VI" URL="../Added Files/Swerve Go To.vi"/>
-				<Item Name="Swerve Out of loop.vi" Type="VI" URL="../Added Files/Swerve Drive/Swerve Out of loop.vi"/>
 			</Item>
 			<Item Name="AppleScript" Type="Folder">
 				<Item Name="Commands" Type="Folder">
@@ -140,7 +139,6 @@ AddOutputFilter chunkFilter
 				<Item Name="Gains.vi" Type="VI" URL="../Added Files/Gains.vi"/>
 			</Item>
 			<Item Name="Loop Speed.vi" Type="VI" URL="../Added Files/Loop Speed.vi"/>
-			<Item Name="Shooter.vi" Type="VI" URL="../Added Files/Shooter.vi"/>
 			<Item Name="findDynamicIPToChange.vi" Type="VI" URL="../Added Files/findDynamicIPToChange.vi"/>
 			<Item Name="PeriodicVisionKangaroo.vi" Type="VI" URL="../Added Files/PeriodicVisionKangaroo.vi"/>
 			<Item Name="Goal Vision Calculations V3.vi" Type="VI" URL="../Added Files/Goal Vision Calculations V3.vi"/>
@@ -516,7 +514,6 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_CANTalonSRX_SetReference.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetReference.vi"/>
 				<Item Name="WPI_CANTalonSRX_SetPID.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_SetPID.vi"/>
 				<Item Name="WPI_CANTalonSRX_GetStatus.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_GetStatus.vi"/>
-				<Item Name="WPI_CANTalonSRX_ChangeMode.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/CanMotor/TalonSRX/WPI_CANTalonSRX_ChangeMode.vi"/>
 				<Item Name="WPI_JoystickOpen.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickOpen.vi"/>
 				<Item Name="WPI_JoystickRefNum Registry Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/Joystick/WPI_JoystickRefNum Registry Set.vi"/>
 				<Item Name="Prepare Table Name.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/Network Tables/Prepare Table Name.vi"/>
@@ -862,8 +859,6 @@ AddOutputFilter chunkFilter
 			<Item Name="libc.so.6" Type="Document" URL="libc.so.6">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Swerve Wheel.vi" Type="VI" URL="../Added Files/Swerve Drive/Swerve Wheel.vi"/>
-			<Item Name="Angle Distance.vi" Type="VI" URL="../Added Files/AppleScript/Angle Distance.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
